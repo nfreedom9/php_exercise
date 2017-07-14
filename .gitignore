@@ -2,3 +2,5 @@
 .idea/
 /composer/composer.lock
 /composer/vendor/
+/file/copied.txt
+/file/file_put_contents.txt
