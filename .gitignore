@@ -1,6 +1,6 @@
 
 .idea/
-/composer/composer.lock
-/composer/vendor/
-/file/copied.txt
-/file/file_put_contents.txt
+/11_composer/composer.lock
+/11_composer/vendor/
+/12_file/copied.txt
+/12_file/file_put_contents.txt
