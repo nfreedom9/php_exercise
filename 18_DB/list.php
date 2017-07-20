@@ -4,8 +4,7 @@ $stmt = $dbh->prepare('SELECT * FROM topic');
 $stmt->execute();
 $list = $stmt->fetchAll();
 if(!empty($_GET['id'])) {
-	echo "test";
-    $stmt = $dbh->prepare('SELECT * FROM topic WHERE id = :id');
+	$stmt = $dbh->prepare('SELECT * FROM topic WHERE id = :id');
     $stmt->bindParam(':id', $id, PDO::PARAM_INT);
     $id = $_GET['id'];
     $stmt->execute();
