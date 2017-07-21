@@ -10,7 +10,8 @@ switch($_GET['mode']){
 		$title = $_POST['title'];
 		$description = $_POST['description'];
 		$stmt->execute();
-		header("Location: list.php");
+		$new_topic_id = $dbh->lastInsertId('topic_id_seq');
+		header("Location: list.php?id={$new_topic_id}");
 		break;
 	case 'delete':
 		$stmt = $dbh->prepare('DELETE FROM topic WHERE id = :id');
