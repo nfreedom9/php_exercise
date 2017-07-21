@@ -1,7 +1,6 @@
 <?php if(!empty($topic)) { ?>
-				<h2><?=htmlspecialchars($topic['title'])?></h2>
-				<div class="created"><?=htmlspecialchars($topic['created'])?></div>
-				<div class="description"><?=htmlspecialchars($topic['description'])?></div>
+				<p>제목 : <input type="text" name="title" value="<?=htmlspecialchars($topic['title'])?>" readonly></p>
+                <p>본문 : <textarea name="description" id="" cols="30" rows="10" readonly><?=htmlspecialchars($topic['description'])?></textarea></p>
 				<div>
 					<form method="GET" action="modify.php">
 						<input type="hidden" name="id" value="<?=$topic['id']?>" />
