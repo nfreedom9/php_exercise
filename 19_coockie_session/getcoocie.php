@@ -4,5 +4,6 @@ if (isset($_COOKIE['cookie2'])) echo "time() - \$_COOKIE['cookie2'] : " . (time(
 
 echo "<br />";
 print_r($_COOKIE);
+echo "<br />";
 echo var_dump($_COOKIE);
 ?>
