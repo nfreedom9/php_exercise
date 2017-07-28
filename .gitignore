@@ -1,4 +1,3 @@
-
 .idea/
 /11_composer/composer.lock
 /11_composer/vendor/
@@ -7,3 +6,6 @@
 /tmp/
 /19_coockie_session/session
 /phpinfo
+/composerApp/composer.lock
+/composerApp/vendor/
+/phpmyadmin/

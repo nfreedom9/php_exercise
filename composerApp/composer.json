@@ -1,0 +1,15 @@
+{
+    "name": "egoing/composer-app",
+    "authors": [
+        {
+            "name": "egoing",
+            "email": "egoing@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {"Greeting\\": "source/Greeting/"}
+    }
+}
